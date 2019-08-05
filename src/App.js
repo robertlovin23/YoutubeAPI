@@ -9,7 +9,7 @@ class App extends React.Component{
         selectedVideo: null
     }
     componentDidMount(){
-        this.handleSubmit('Flume')
+        this.handleSubmit('Odesza Late Night')
     }
     handleSubmit = async (searchTerm) => {
         const response = await youtube.get('search', {
