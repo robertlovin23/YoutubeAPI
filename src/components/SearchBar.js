@@ -8,7 +8,7 @@ class SearchBar extends React.Component {
 
     handleChange = (event) => {
         this.setState({
-            searchTeam: event.target.value 
+            searchTerm: event.target.value 
         })
     }
     handleSubmit = (event) => {
